@@ -1,0 +1,25 @@
+{
+  "name": "simple-app-example",
+  "version": "0.0.1",
+  "description": "simple-app-example description",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [],
+  "author": "John Doe",
+  "dependencies": {
+    "express": "^5.1.0",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@randajan/simple-app": "^6.2.7",
+    "esbuild-plugin-import-glob": "^0.1.1",
+    "esbuild-sass-plugin": "^3.3.1"
+  }
+}
