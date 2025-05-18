@@ -2,37 +2,37 @@
 
 ## Installation
 
-1. install [VS Code](https://code.visualstudio.com/download)
-2. install [Node.js](https://nodejs.org/en/download)
-3. open VS Code
-4. at VS Code go to __File__ -> __Open Folder__ and selectfolder with this file (README.md)
-5. at VS Code got to __Terminal__ -> __New Terminal__ and it should open the command line at the bottom of the screen
-6. in the command line write __npm install -G yarn__ and wait till finishes
-7. in the command line write __yarn install__ and wait till finishes
-8. in the command line write __node index.js__
-9. browser should open with new tab at url http://localhot:3000
+1. Install [VS Code](https://code.visualstudio.com/download).  
+2. Install [Node.js](https://nodejs.org/en/download).  
+3. Open VS Code.  
+4. In VS Code, go to **File → Open Folder** and select the folder containing this file (README.md).  
+5. In VS Code, go to **Terminal → New Terminal**; this should open a command line at the bottom of the screen.  
+6. In the command line, type `npm install -g yarn` and wait until it finishes.  
+7. In the command line, type `yarn install` and wait until it finishes.  
+8. In the command line, type `node index.js`.  
+9. A browser should open a new tab at **http://localhost:3000**.
 
-Congratulation you just initialized your first full-stack javascript application.
+Congratulations — you have just initialized your first full-stack JavaScript application.
 
 ## Orientation
 
-1. Engine created default surce code structure at "./src"
-2. You will find static html files at "./src/public"
-3. Frontend javascript + css files at "./src/frontend"
-4. Backend javascript at "./src/backend"
-5. There is also folder "./src/arc" where you can put code that is shared by frontend & backend
+1. The engine has created the default source‑code structure in `./src`.  
+2. You will find static HTML files in `./src/public`.  
+3. Front‑end JavaScript and CSS files are in `./src/frontend`.  
+4. Back‑end JavaScript is in `./src/backend`.  
+5. There is also a folder `./src/arc` for code that is shared by the front end and back end.
 
 ## Work process
 
-Dev server automatically rebuilds and refreshes application on change
-There is no need for adding more <__style/__> or <__script/__> element at the __index.html__ template
-You should write your code at the "./src/frontend/index.js" and "./src/backend/index.js" and it will be autoloaded
+The dev server automatically rebuilds and refreshes the application whenever files change.  
+There is no need to add additional `<style>` or `<script>` elements to the `index.html` template.  
+Write your code in `./src/frontend/index.js` and `./src/backend/index.js`; it will be autoloaded.
 
-If you need separate your project into more files you need to that via __ES6 modules__ commands:
-- import
-- export  
+If you need to split your project into more files, do so via ES6 module commands:
 
-Also you can use *.sass instead of *.css format.
+- `import`
+- `export`
 
- 
-Happy hacking
+You can also use the `.sass` format instead of `.css`.
+
+Happy hacking!
