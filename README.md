@@ -2,17 +2,24 @@
 
 ## Installation
 
-1. Install [VS Code](https://code.visualstudio.com/download).  
-2. Install [Node.js](https://nodejs.org/en/download).  
-3. Open VS Code.  
-4. In VS Code, go to **File → Open Folder** and select the folder containing this file (README.md).  
-5. In VS Code, go to **Terminal → New Terminal**; this should open a command line at the bottom of the screen.  
-6. In the command line, type `npm install -g yarn` and wait until it finishes.  
-7. In the command line, type `yarn install` and wait until it finishes.  
-8. In the command line, type `node index.js`.  
-9. A browser should open a new tab at **http://localhost:3000**.
+1. Install [Git](https://git-scm.com/downloads).  
+2. Install [VS Code](https://code.visualstudio.com/download).  
+3. Install [Node.js](https://nodejs.org/en/download).  
+4. Open VS Code.  
+5. In VS Code, go to **File → Open Folder** and select the project folder.  
+6. In VS Code, go to **Terminal → New Terminal**; this opens a command line at the bottom of the screen.  
+7. In the terminal, run the following commands **one by one**, waiting for each to finish:  
 
-Congratulations — you have just initialized your first full-stack JavaScript application.
+```bash
+git clone https://github.com/randajan/simple-app-example
+cd simple-app-example
+npm install -g yarn
+yarn install
+node index.js
+```
+
+A browser should automatically open a new tab at **http://localhost:3000**.  
+Congratulations — you have just initialized your first full‑stack JavaScript application.
 
 ## Orientation
 
@@ -24,11 +31,11 @@ Congratulations — you have just initialized your first full-stack JavaScript a
 
 ## Work process
 
-The dev server automatically rebuilds and refreshes the application whenever files change.  
+The development server automatically rebuilds and refreshes the application whenever files change.  
 There is no need to add additional `<style>` or `<script>` elements to the `index.html` template.  
 Write your code in `./src/frontend/index.js` and `./src/backend/index.js`; it will be autoloaded.
 
-If you need to split your project into more files, do so via ES6 module commands:
+If you need to split your project into more files, do so with ES6 module commands:
 
 - `import`
 - `export`
